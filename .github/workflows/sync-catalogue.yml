@@ -72,7 +72,7 @@ jobs:
                      "url": r["url"]} for r in rows]
           doc = {"count": n, "license": "CC0-1.0",
                  "source": "https://musaisong.app/en/styles",
-                 "repository": "https://github.com/samuelgrupolimex-prog/suno-style-recipes",
+                 "repository": "https://github.com/samuelgrupolimex-prog/ai-music-style-recipes",
                  "dataset": "https://huggingface.co/datasets/musaisong/suno-style-recipes",
                  "styles": styles}
           open("styles.json", "w", encoding="utf-8").write(json.dumps(doc, ensure_ascii=False, indent=2) + "\n")
@@ -92,7 +92,7 @@ jobs:
               table.append(line)
 
           head = ("# Every documented style (" + str(n) + ")\n\n"
-                  "One row per style: the style prompt, the tempo, the two Suno sliders that\n"
+                  "One row per style: the style prompt, the tempo, the two generation sliders that\n"
                   "change the result most, and a link to the full page for that style.\n\n"
                   + str(pulseless) + " styles carry no BPM at all. They are free-time, and their tempo cell\n"
                   "reads a dash rather than a zero: setting a BPM on them does not make them\n"
