@@ -10,7 +10,7 @@ import matplotlib
 matplotlib.use("Agg")
 import matplotlib.pyplot as plt
 
-matplotlib.rcParams["svg.hashsalt"] = "suno-style-recipes"
+matplotlib.rcParams["svg.hashsalt"] = "ai-music-style-recipes"
 INK, CREAM, VIO, AMB, MUTE = "#14121F", "#F6F1E7", "#8B6CFF", "#F2B33D", "#b9b3cf"
 
 d = pd.read_csv("styles.csv")
@@ -49,7 +49,7 @@ ax.set_xlabel("Weirdness  (tolerance for deviation)", color=CREAM, fontsize=11)
 ax.set_ylabel("Style Influence  (genre fidelity)", color=CREAM, fontsize=11)
 
 fig.text(.07, .9, f"{n} genres. Two dials.", color=CREAM, fontsize=30, weight="bold")
-fig.text(.07, .845, f"Every documented style, placed by its Suno settings. "
+fig.text(.07, .845, f"Every documented style, placed by its generation settings. "
                     f"Style Influence never drops below {si_min}.", color=MUTE, fontsize=12.5)
 
 b, k = row("Bolero Clásico"), row("Breakcore")
@@ -69,7 +69,7 @@ for item in side:
         fig.text(.74, yy, item[0], color=item[1], fontsize=item[2], weight=item[3] or "normal")
     yy -= .047
 
-fig.text(.07, .04, f"suno-style-recipes · CC0 1.0 · {n} styles in CSV / JSON / Parquet", color="#8f89a8", fontsize=10)
+fig.text(.07, .04, f"ai-music-style-recipes · CC0 1.0 · {n} styles in CSV / JSON / Parquet", color="#8f89a8", fontsize=10)
 fig.text(.74, .04, "musaisong.app/en/styles", color=AMB, fontsize=10)
 
 os.makedirs("assets", exist_ok=True)
