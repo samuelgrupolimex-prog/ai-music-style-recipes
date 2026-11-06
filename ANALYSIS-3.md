@@ -2,7 +2,7 @@
 
 **47 names this catalogue used to carry in its style prompts, and the words that replaced them.**
 
-Suno's style field doesn't accept artist names. A prompt that leans on one — *Chopin style*, *Bruno Mars style*, *Eno-style ambient* — asks the model for something it has been told not to give. Until this release, 47 of the 564 recipes in this repo did exactly that. This page is the fix, and the method behind it, so you can apply it to your own prompts.
+AI music generators' style fields don't accept artist names. A prompt that leans on one — *Chopin style*, *Bruno Mars style*, *Eno-style ambient* — asks the model for something it has been told not to give. Until this release, 47 of the 564 recipes in this repo did exactly that. This page is the fix, and the method behind it, so you can apply it to your own prompts.
 
 ## The method: a name is a shortcut for four things
 
@@ -81,8 +81,8 @@ Two of the four are usually enough. *Chopin style* became **Romantic-era salon n
 
 ## Found one we missed?
 
-Open an issue with the **Settings correction** form, or add it to the pinned thread [Where the settings fail](https://github.com/samuelgrupolimex-prog/suno-style-recipes/issues/2). Corrections land at the source and reach every format on the next weekly sync.
+Open an issue with the **Settings correction** form, or add it to the pinned thread [Where the settings fail](https://github.com/samuelgrupolimex-prog/ai-music-style-recipes/issues/2). Corrections land at the source and reach every format on the next weekly sync.
 
 ---
 
-*The recipes come from the catalogue behind MUSAI, a lyric writer for Suno: <https://musaisong.app/en/styles>. This page and the data are public domain (CC0 1.0).*
+*The recipes come from the catalogue behind MUSAI Song, which turns a personal story into a finished sung song: <https://musaisong.app/en/styles>. This page and the data are public domain (CC0 1.0).*

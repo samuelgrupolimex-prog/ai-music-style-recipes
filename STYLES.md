@@ -1,6 +1,6 @@
 # Every documented style (564)
 
-One row per style: the style prompt, the tempo, the two Suno sliders that
+One row per style: the style prompt, the tempo, the two generation sliders that
 change the result most, and a link to the full page for that style.
 
 3 styles carry no BPM at all. They are free-time, and their tempo cell
