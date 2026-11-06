@@ -1,8 +1,8 @@
 {
-  "name": "suno-style-recipes",
-  "title": "Suno Style Recipes",
+  "name": "ai-music-style-recipes",
+  "title": "AI Music Style Recipes",
   "version": "1.2.0",
-  "description": "564 documented music styles for Suno and Udio: style prompt, BPM, Weirdness, Style Influence, family and canonical structure.",
+  "description": "564 documented music styles for AI music generators: style prompt, BPM, Weirdness, Style Influence, family and canonical structure.",
   "homepage": "https://musaisong.app/en/styles",
   "licenses": [
     {
@@ -12,9 +12,8 @@
     }
   ],
   "keywords": [
-    "suno",
-    "udio",
     "ai-music",
+    "ai-music-generator",
     "style-prompts",
     "music-genres"
   ],
@@ -75,7 +74,7 @@
           {
             "name": "style_prompt",
             "type": "string",
-            "description": "Comma-separated Suno tags, no artist names",
+            "description": "Comma-separated style tags, no artist names",
             "constraints": {
               "required": true
             }

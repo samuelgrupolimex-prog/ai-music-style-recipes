@@ -1,6 +1,6 @@
-# What 564 documented genres reveal about how Suno's settings actually behave
+# What 564 documented genres reveal about how AI music generators' settings actually behave
 
-Most advice about Suno's generation settings is handed down rather than measured. You are told to keep weirdness somewhere around 20 to 40 and style influence somewhere around 70 to 90, and then you are left to work out the rest by burning credits. The advice is not wrong exactly. It is just untested, and when you test it against a large enough corpus, parts of it turn out to describe a space that does not exist.
+Most advice about AI music generation settings is handed down rather than measured. You are told to keep weirdness somewhere around 20 to 40 and style influence somewhere around 70 to 90, and then you are left to work out the rest by burning credits. The advice is not wrong exactly. It is just untested, and when you test it against a large enough corpus, parts of it turn out to describe a space that does not exist.
 
 This is what happens when you read 564 documented music styles as data rather than as a lookup table. Each style in the catalogue carries a style prompt, a tempo, a weirdness value, a style influence value and a canonical song structure, grouped into 18 families. The whole thing is public domain, published as CSV, JSON and Parquet, so every number below can be checked against the source in about two minutes rather than taken on trust.
 
@@ -50,4 +50,4 @@ The settings are the easy half. They are worth measuring properly precisely so t
 
 ---
 
-The full catalogue of 564 styles — style prompt, BPM, weirdness, style influence and canonical song structure for each — is public domain under CC0 1.0, as [CSV](styles.csv), [JSON](styles.json) and [Parquet](styles.parquet), and mirrored on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes). Repository: <https://github.com/samuelgrupolimex-prog/suno-style-recipes>
+The full catalogue of 564 styles — style prompt, BPM, weirdness, style influence and canonical song structure for each — is public domain under CC0 1.0, as [CSV](styles.csv), [JSON](styles.json) and [Parquet](styles.parquet), and mirrored on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes). Repository: <https://github.com/samuelgrupolimex-prog/ai-music-style-recipes>

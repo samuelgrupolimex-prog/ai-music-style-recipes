@@ -1,4 +1,4 @@
-# Suno Style Recipes by MUSAI Song — 564 documented music styles with BPM, weirdness and style influence
+# AI Music Style Recipes by MUSAI Song — 564 documented music styles with BPM, weirdness and style influence
 
 What MUSAI Song sells is a personalized song gift → https://musaisong.app/en
 
@@ -7,25 +7,25 @@ What MUSAI Song sells is a personalized song gift → https://musaisong.app/en
 [![License: CC0-1.0](https://img.shields.io/badge/license-CC0%201.0-3B2A8C)](LICENSE)
 [![Styles](https://img.shields.io/badge/styles-564-6D4AFF)](STYLES.md)
 [![Formats](https://img.shields.io/badge/formats-CSV%20%C2%B7%20JSON%20%C2%B7%20Parquet-F2B33D)](#all-564-styles)
-[![Synced weekly](https://github.com/samuelgrupolimex-prog/suno-style-recipes/actions/workflows/sync-catalogue.yml/badge.svg)](.github/workflows/sync-catalogue.yml)
-[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samuelgrupolimex-prog/suno-style-recipes/blob/main/notebooks/explore.ipynb)
+[![Synced weekly](https://github.com/samuelgrupolimex-prog/ai-music-style-recipes/actions/workflows/sync-catalogue.yml/badge.svg)](.github/workflows/sync-catalogue.yml)
+[![Open in Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/samuelgrupolimex-prog/ai-music-style-recipes/blob/main/notebooks/explore.ipynb)
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22788085.svg)](https://doi.org/10.5281/zenodo.22788085)
-[![GitHub stars](https://img.shields.io/github/stars/samuelgrupolimex-prog/suno-style-recipes?style=social)](https://github.com/samuelgrupolimex-prog/suno-style-recipes/stargazers)
+[![GitHub stars](https://img.shields.io/github/stars/samuelgrupolimex-prog/ai-music-style-recipes?style=social)](https://github.com/samuelgrupolimex-prog/ai-music-style-recipes/stargazers)
 
 ![564 genres placed by Weirdness and Style Influence](assets/genre-map.png)
 
 **Try it in 30 seconds:** open the notebook in Colab, type a genre, get its prompt and settings — or give it a Weirdness / Style Influence pair and it returns the ten genres that live there.
 
-A reference catalogue of 564 music styles formatted for AI music generators (Suno, Udio). Each row gives the **style prompt** you paste into the "Style of Music" field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
+A reference catalogue of 564 music styles formatted for AI music generators. Each row gives the **style prompt** you paste into the generator's style field, plus the three generation settings that actually change the output: **BPM**, **Weirdness** and **Style Influence**.
 
 All 564 are in this repo, four ways:
 
 - **[STYLES.md](STYLES.md)** — the complete table, readable in the browser. Start here if you only want to look one style up.
-- **[styles.csv](styles.csv)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/suno-style-recipes/main/styles.csv)) — one row per style, for a spreadsheet or a one-line `read_csv`. Columns: `style, family, bpm, weirdness, style_influence, style_prompt, structure, url`.
-- **[styles.json](styles.json)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/suno-style-recipes/main/styles.json)) — the same records with typed numbers and `null` where a style has no tempo, for anything that consumes it as an API.
-- **[styles.parquet](styles.parquet)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/suno-style-recipes/main/styles.parquet)) — columnar and compressed, 84 KB, for dataframe work at speed.
+- **[styles.csv](styles.csv)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.csv)) — one row per style, for a spreadsheet or a one-line `read_csv`. Columns: `style, family, bpm, weirdness, style_influence, style_prompt, structure, url`.
+- **[styles.json](styles.json)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.json)) — the same records with typed numbers and `null` where a style has no tempo, for anything that consumes it as an API.
+- **[styles.parquet](styles.parquet)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.parquet)) — columnar and compressed, 84 KB, for dataframe work at speed.
 
-Also published as a dataset on Hugging Face: <https://huggingface.co/datasets/musaisong/suno-style-recipes>
+Also published as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes).
 
 Nine of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `null` in the JSON and a dash in the table. Zero would be a false number, and a false number sinks any average you compute.
 
@@ -221,17 +221,15 @@ The data here is CC0 1.0 (public domain) and usable on its own. If you want the 
 
 - All 564 documented styles → https://musaisong.app/en/styles?ref=github
 - A finished example → https://musaisong.app/example/the-trowel-and-the-sword?ref=github
-- Lyrics + sung song, from $5 → https://musaisong.app/en/plans?ref=github
+- Lyrics + sung song, heard before you pay → https://musaisong.app/en/plans?ref=github
 
 ## Want the finished song made for you?
 
 This table gives you the sound. If you want the whole song — original lyrics written from your idea or story in any of these 564 styles, **sung and delivered**, with the style recipe and a numbered illustrated art plate with a public record you can link to — that's what I built MUSAI Song for.
 
-- **1 song — $5** — https://buy.stripe.com/dRm00ldvx97WcKr8M93wQ07
-- **10 songs — $15** — https://buy.stripe.com/3cIeVf2QT6ZOfWDbYl3wQ08
-- **50 songs a month — $39** — https://buy.stripe.com/fZuaEZ2QTgAocKr4vT3wQ06
+You tell the story, MUSAI Song writes the lyrics and you hear the finished song before you pay. Plans and current prices: https://musaisong.app/en/plans?ref=github
 
-1 and 10 are one-time payments; 50 is monthly, cancel anytime. If a song fails, that one is redone or refunded.
+If a song fails, that one is redone or refunded.
 
 Hear one made end to end: https://musaisong.app/acta/MUS-9EXJ9A?ref=github
 
