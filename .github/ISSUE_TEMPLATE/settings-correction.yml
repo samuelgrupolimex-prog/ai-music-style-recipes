@@ -30,7 +30,7 @@ body:
     id: model
     attributes:
       label: Model and date
-      description: Suno or Udio, which version, when. These models change month to month.
-      placeholder: "Suno v5 · 2026-09"
+      description: Which generator, which version, when. These models change month to month.
+      placeholder: "model v5 · 2026-09"
     validations:
       required: true
