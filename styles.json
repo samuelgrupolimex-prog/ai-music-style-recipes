@@ -2,7 +2,7 @@
   "count": 564,
   "license": "CC0-1.0",
   "source": "https://musaisong.app/en/styles",
-  "repository": "https://github.com/samuelgrupolimex-prog/suno-style-recipes",
+  "repository": "https://github.com/samuelgrupolimex-prog/ai-music-style-recipes",
   "dataset": "https://huggingface.co/datasets/musaisong/suno-style-recipes",
   "styles": [
     {
