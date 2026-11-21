@@ -25,7 +25,7 @@ All 564 are in this repo, four ways:
 - **[styles.json](styles.json)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.json)) — the same records with typed numbers and `null` where a style has no tempo, for anything that consumes it as an API.
 - **[styles.parquet](styles.parquet)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.parquet)) — columnar and compressed, 84 KB, for dataframe work at speed.
 
-Also published as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes).
+Also published as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes).
 
 Nine of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `null` in the JSON and a dash in the table. Zero would be a false number, and a false number sinks any average you compute.
 
@@ -203,7 +203,7 @@ Each style below has one specific writing problem that the settings can't solve.
 | [styles.json](styles.json) | Typed records, `null` tempos | Feeding an app or an API |
 | [styles.parquet](styles.parquet) | Columnar, 84 KB | Dataframes and analytics |
 
-All four are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so none of them drifts from the others. Mirrored as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes).
+All four are regenerated from the source catalogue by [a scheduled workflow](.github/workflows/sync-catalogue.yml), so none of them drifts from the others. Mirrored as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes).
 
 Three write-ups read the corpus as data rather than as a lookup table:
 
