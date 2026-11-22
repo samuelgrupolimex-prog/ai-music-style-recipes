@@ -68,6 +68,6 @@ That is a writing problem, it is different in every one of these nine, and no sl
 
 ---
 
-The full catalogue of 564 styles — style prompt, BPM, weirdness, style influence and canonical song structure for each — is public domain under CC0 1.0, as [CSV](styles.csv), [JSON](styles.json) and [Parquet](styles.parquet), and mirrored on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes). Every style also has a full page: <https://musaisong.app/en/styles>
+The full catalogue of 564 styles — style prompt, BPM, weirdness, style influence and canonical song structure for each — is public domain under CC0 1.0, as [CSV](styles.csv), [JSON](styles.json) and [Parquet](styles.parquet), and mirrored on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes). Every style also has a full page: <https://musaisong.app/en/styles>
 
 Part one of this series, on what the corpus reveals about the two settings that matter most, is [here](ANALYSIS.md).
