@@ -34,11 +34,11 @@ One more thing worth knowing about weirdness: above 50 it stops being a setting 
 
 Tempo in the catalogue runs from 45 BPM to 220, with a median of 100, and it is the least mysterious of the three settings: it does exactly what it says. The instructive case is the exception.
 
-Nine of the 564 styles carry no tempo at all. Dark Ambient, Drone Experimental, Electroacústica, Música Aleatoria, Musique Concrète, Noise, Power Electronics, Señal Sin Nombre and Sound Collage are free-time. There is no pulse to set, because the absence of one is the genre's entire proposition.
+Three of the 564 styles carry no tempo at all. Música Aleatoria, Noise and Power Electronics are free-time. (Six slow experimental styles that earlier versions of this piece listed with them now carry a nominal tempo, 50 to 90 BPM.) There is no pulse to set, because the absence of one is the genre's entire proposition.
 
-This is a small detail with a large data-hygiene lesson attached. Those nine styles were originally stored as BPM 0, and 0 is not a description of anything — it is a false number that quietly drags down every average you compute and, worse, gets pasted into a prompt where it means nothing. In the published dataset they are now an empty cell in the CSV, `null` in the JSON and a dash in the Markdown table. If you build anything on top of a genre dataset, check how it encodes absence before you trust its means.
+This is a small detail with a large data-hygiene lesson attached. Free-time styles were originally stored as BPM 0, and 0 is not a description of anything — it is a false number that quietly drags down every average you compute and, worse, gets pasted into a prompt where it means nothing. In the published dataset they are now an empty cell in the CSV, `null` in the JSON and a dash in the Markdown table. If you build anything on top of a genre dataset, check how it encodes absence before you trust its means.
 
-The practical version: for these nine, leave the tempo field alone. Setting a BPM does not make them faster. It makes them wrong.
+The practical version: for these three, leave the tempo field alone. Setting a BPM does not make them faster. It makes them wrong.
 
 ## What the three settings do not solve
 
