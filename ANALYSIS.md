@@ -50,4 +50,4 @@ The settings are the easy half. They are worth measuring properly precisely so t
 
 ---
 
-The full catalogue of 564 styles — style prompt, BPM, weirdness, style influence and canonical song structure for each — is public domain under CC0 1.0, as [CSV](styles.csv), [JSON](styles.json) and [Parquet](styles.parquet), and mirrored on [Hugging Face](https://huggingface.co/datasets/musaisong/suno-style-recipes). Repository: <https://github.com/samuelgrupolimex-prog/ai-music-style-recipes>
+The full catalogue of 564 styles — style prompt, BPM, weirdness, style influence and canonical song structure for each — is public domain under CC0 1.0, as [CSV](styles.csv), [JSON](styles.json) and [Parquet](styles.parquet), and mirrored on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes). Repository: <https://github.com/samuelgrupolimex-prog/ai-music-style-recipes>
