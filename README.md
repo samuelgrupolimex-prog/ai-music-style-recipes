@@ -27,7 +27,7 @@ All 564 are in this repo, four ways:
 
 Also published as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes).
 
-Nine of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `null` in the JSON and a dash in the table. Zero would be a false number, and a false number sinks any average you compute.
+Three of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `null` in the JSON and a dash in the table. Zero would be a false number, and a false number sinks any average you compute.
 
 The 59 in the README below are the annotated subset: same numbers, plus a craft note on the one writing problem each genre creates. Every style also has a full page with its canonical song structure and a sample excerpt: <https://musaisong.app/en/styles?ref=github>
 
@@ -208,7 +208,7 @@ All four are regenerated from the source catalogue by [a scheduled workflow](.gi
 Three write-ups read the corpus as data rather than as a lookup table:
 
 - **[ANALYSIS.md](ANALYSIS.md)** — what 564 documented genres reveal about how the three settings actually behave, including the measurement that contradicts the advice everyone repeats.
-- **[ANALYSIS-2.md](ANALYSIS-2.md)** — the nine genres where BPM does not apply, why a zero in that field is worse than an empty one, and what replaces the meter when there is no pulse to write against.
+- **[ANALYSIS-2.md](ANALYSIS-2.md)** — the three genres where BPM does not apply, why a zero in that field is worse than an empty one, and what replaces the meter when there is no pulse to write against.
 - **[ANALYSIS-3.md](ANALYSIS-3.md)** — the 47 artist, composer and brand names the style prompts used to carry, what replaced each one, and a four-part method to do the same in your own prompts.
 
 Each style also has a full page carrying its structure, a craft note on how its lyrics behave, and a sample excerpt: <https://musaisong.app/en/styles?ref=github>
