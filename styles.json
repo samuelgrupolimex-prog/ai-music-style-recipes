@@ -3,7 +3,7 @@
   "license": "CC0-1.0",
   "source": "https://musaisong.app/en/styles",
   "repository": "https://github.com/samuelgrupolimex-prog/ai-music-style-recipes",
-  "dataset": "https://huggingface.co/datasets/musaisong/suno-style-recipes",
+  "dataset": "https://huggingface.co/datasets/musaisong/ai-music-style-recipes",
   "styles": [
     {
       "style": "90s R&B Revival",
