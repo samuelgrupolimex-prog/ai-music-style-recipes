@@ -6,8 +6,8 @@ authors:
   - name: "MUSAI"
     website: "https://musaisong.app"
 license: CC0-1.0
-version: "1.2.0"
-date-released: "2026-09-16"
+version: "1.3.0"
+date-released: "2026-11-23"
 doi: 10.5281/zenodo.22788085
 repository-code: "https://github.com/samuelgrupolimex-prog/ai-music-style-recipes"
 url: "https://musaisong.app/en/styles"
