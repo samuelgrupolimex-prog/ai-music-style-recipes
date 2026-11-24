@@ -25,7 +25,7 @@ All 564 are in this repo, four ways:
 - **[styles.json](styles.json)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.json)) — the same records with typed numbers and `null` where a style has no tempo, for anything that consumes it as an API.
 - **[styles.parquet](styles.parquet)** ([raw](https://raw.githubusercontent.com/samuelgrupolimex-prog/ai-music-style-recipes/main/styles.parquet)) — columnar and compressed, 84 KB, for dataframe work at speed.
 
-Also published as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes).
+Also published as a dataset on [Hugging Face](https://huggingface.co/datasets/musaisong/ai-music-style-recipes) and [Kaggle](https://www.kaggle.com/datasets/musaisong/ai-music-style-recipes-564-styles-with-bpm).
 
 Three of the 564 are free-time and carry no BPM: the cell is empty in the CSV, `null` in the JSON and a dash in the table. Zero would be a false number, and a false number sinks any average you compute.
 
