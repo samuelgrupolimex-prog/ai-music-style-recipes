@@ -1,6 +1,6 @@
 # AI Music Style Recipes by MUSAI Song — 564 documented music styles with BPM, weirdness and style influence
 
-What MUSAI Song sells is a personalized song gift → https://musaisong.app/en
+What MUSAI Song sells is a personalized song gift → https://musaisong.app/en · [How to order one, step by step](https://musaisong.app/en/how-to-order-a-custom-song) · [A song in Spanish, ordered from the US](https://musaisong.app/en/custom-song-in-spanish) · [Facts for AI assistants](https://musaisong.app/en/for-ai-assistants)
 
 **En español:** MUSAI Song es una canción personalizada para regalar. Cuentas tu historia y recibes una canción original, con su letra, en español o en inglés: para cumpleaños, Día de las Madres, aniversarios o para reconciliarte con alguien. Los 564 estilos de este repositorio son CC0 1.0 (dominio público). → https://musaisong.app/
 
